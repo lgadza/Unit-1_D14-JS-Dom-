@@ -1,0 +1,33 @@
+body {
+  width: 80%;
+  color: coral;
+  margin: auto;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+#cells {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.cell {
+  border: 1px solid;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  text-align: center;
+}
+#myBtn {
+  padding: 10px;
+  /* border-radius: 5px; */
+  border-color: coral;
+  margin-left: 29px;
+  background-color: blanchedalmond;
+  color: coral;
+  font-weight: bold;
+}
